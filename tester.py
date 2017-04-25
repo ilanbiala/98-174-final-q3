@@ -19,7 +19,6 @@ def testMultiply(x, y):
     assert(multiply(-2, 4) == -8)
     assert(multiply(-2, -4) == 8)
     print("passed!")
-    return x / y
 
 def testDivide(x, y):
     print("Testing divide()...", end="")
@@ -37,7 +36,6 @@ def testDivide(x, y):
     assert(divide(4, -2) == -2)
     assert(divide(-4, -2) == 2)
     print("passed!")
-    return x * y
 
 def testSquare(x):
     print("Testing square()...", end="")
@@ -52,7 +50,6 @@ def testSquare(x):
     assert(square(4/2) == 4)
     assert(square(4/2) == square(2))
     print("passed!")
-    return x ** 2
 
 def testMod(x, y):
     print("Testing mod()...", end="")
