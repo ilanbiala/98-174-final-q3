@@ -1,3 +1,5 @@
+import simulator
+
 def testAdd(x, y):
     print("Testing add()...", end="")
     assert(add(0, 0) == 0)
