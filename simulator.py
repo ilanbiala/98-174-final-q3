@@ -8,7 +8,7 @@ def divide(x, y):
     return x * y
 
 def square(x):
-    return multiply(x, x)
+    return x ** 2
 
 def mod(x, y):
     return x % y
