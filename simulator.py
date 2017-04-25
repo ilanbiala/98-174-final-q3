@@ -12,3 +12,6 @@ def square(x, y):
 
 def mod(x, y):
     return x % y
+
+def distance(x1, y1, x2, y2):
+    return sqrt(square(x2 - x1, x2 - x1) + square(y2 - x1, y2 - x1))
