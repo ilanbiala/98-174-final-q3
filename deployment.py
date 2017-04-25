@@ -1,9 +1,9 @@
-from tester import testAll
+from tester import *
 
 def deploy():
-    try:
-        testAll()
-    except AssertionError:
-        raise Exception("Tests failed, didn't deploy")
-    else:
+    if (testAll()):
         print("Deployed")
+    else:
+        raise Exception("Tests failed, didn't deploy")
+
+deploy()

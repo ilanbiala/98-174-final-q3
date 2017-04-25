@@ -74,13 +74,15 @@ def testDistance():
 
 def testAll():
     print("Testing all simulator functions...")
-    testAdd()
-    testMultiply()
-    testDivide()
-    testSquare()
-    testMod()
-    testDistance()
-    print("All simulator functions passed!")
-    return True
-
-testAll()
+    try:
+        testAdd()
+        testMultiply()
+        testDivide()
+        testSquare()
+        testMod()
+        testDistance()
+    except Exception as e:
+        return False
+    else:
+        print("All simulator functions passed!")
+        return True
