@@ -55,8 +55,15 @@ def testSquare():
 
 def testMod():
     print("Testing mod()...", end="")
-    raise Exception("Will be added later!")
-    return x % y
+    assert(mod(0, 1) == 0)
+    assert(mod(0, -1) == 0)
+    assert(mod(1, 1) == 0)
+    assert(mod(1, -1) == 0)
+    assert(mod(-1, -1) == 0)
+    assert(mod(2, 4) == 2)
+    assert(mod(2, -4) == -2)
+    assert(mod(-2, 4) == 2)
+    print("passed!")
 
 def testDistance():
     print("Testing distance()...", end="")
