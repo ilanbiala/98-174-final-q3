@@ -1,4 +1,4 @@
-import simulator
+from simulator import *
 
 def testAdd():
     print("Testing add()...", end="")
