@@ -1,6 +1,6 @@
 import simulator
 
-def testAdd(x, y):
+def testAdd():
     print("Testing add()...", end="")
     assert(add(0, 0) == 0)
     assert(add(1, 2) == 3)
@@ -8,7 +8,7 @@ def testAdd(x, y):
     assert(add(-1, 2) == 1)
     print("passed!")
 
-def testMultiply(x, y):
+def testMultiply():
     print("Testing multiply()...", end="")
     assert(multiply(0, 0) == 0)
     assert(multiply(0, 1) == 0)
@@ -22,7 +22,7 @@ def testMultiply(x, y):
     assert(multiply(-2, -4) == 8)
     print("passed!")
 
-def testDivide(x, y):
+def testDivide():
     print("Testing divide()...", end="")
     assert(divide(0, 1) == 0)
     assert(divide(0, -1) == 0)
@@ -39,7 +39,7 @@ def testDivide(x, y):
     assert(divide(-4, -2) == 2)
     print("passed!")
 
-def testSquare(x):
+def testSquare():
     print("Testing square()...", end="")
     assert(square(0) == 0)
     assert(square(1) == 1)
@@ -53,12 +53,12 @@ def testSquare(x):
     assert(square(4/2) == square(2))
     print("passed!")
 
-def testMod(x, y):
+def testMod():
     print("Testing mod()...", end="")
     raise Exception("Will be added later!")
     return x % y
 
-def testDistance(x1, y1, x2, y2):
+def testDistance():
     print("Testing distance()...", end="")
 
     raise Exception("Will be added later!")
