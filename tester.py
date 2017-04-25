@@ -67,9 +67,10 @@ def testMod():
 
 def testDistance():
     print("Testing distance()...", end="")
-
-    raise Exception("Will be added later!")
-    return sqrt(square(x2 - x1, x2 - x1) + square(y2 - x1, y2 - x1))
+    assert(distance(0, 0, 1, 0) == 1)
+    assert(distance(0, 0, -1, 0) == 1)
+    assert(distance(3, 0, 0, 4) == 5)
+    print("passed!")
 
 def testAll():
     print("Testing all simulator functions...")
