@@ -73,3 +73,5 @@ def testAll():
     testMod()
     testDistance()
     print("All simulator functions passed!")
+
+testAll()
