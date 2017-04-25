@@ -1,0 +1,2 @@
+def deploy():
+    return "Deployed"
