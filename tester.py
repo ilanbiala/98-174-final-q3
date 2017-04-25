@@ -69,7 +69,7 @@ def testDistance():
     print("Testing distance()...", end="")
     assert(distance(0, 0, 1, 0) == 1)
     assert(distance(0, 0, -1, 0) == 1)
-    assert(distance(3, 1, 0, 4) == 5)
+    assert(distance(3, 0, 0, 4) == 5)
     print("passed!")
 
 def testAll():
